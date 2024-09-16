@@ -1,0 +1,4 @@
+speedtest-cli~=2.1
+termcolor~=1.1
+colorama~=0.4
+pyfiglet~=0.8
