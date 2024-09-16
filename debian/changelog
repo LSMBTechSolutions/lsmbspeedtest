@@ -1,0 +1,14 @@
+lsmbspeedtest (1.0) focal; urgency=medium
+
+  * Initial release.
+  * Added network speed testing features including download and upload speed.
+  * Added ping and jitter testing for network stability.
+  * Included network security check.
+  * Implemented real-time process feedback using a spinner.
+  * Added user commands for starting, stopping, and retrieving test results.
+  * Integrated progress bars for download and upload speed tests.
+  * Displayed server details using speedtest-cli.
+  * Cross-platform color support using termcolor and colorama.
+  * ASCII art banner created using pyfiglet.
+
+ -- LSMB Global Solutions Corp <lsmb_app_developer@proton.me>  Sat, 14 Sep 2024 10:00:00 +0000

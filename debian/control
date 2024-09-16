@@ -1,0 +1,18 @@
+Source: lsmbspeedtest
+Section: utils
+Priority: optional
+Maintainer: LSMB Global Solutions Corp <lsmb_app_developer@proton.me>
+Build-Depends: debhelper-compat (= 12), dh-python, python3, python3-pyfiglet, python3-termcolor, python3-colorama, speedtest-cli
+Standards-Version: 4.5.1
+Homepage: https://github.com/LSMBGlobalSolutions/lsmbspeedtest
+Vcs-Git: https://github.com/LSMBGlobalSolutions/lsmbspeedtest.git
+Vcs-Browser: https://github.com/LSMBGlobalSolutions/lsmbspeedtest
+
+Package: lsmbspeedtest
+Architecture: all
+Depends: ${python3:Depends}, ${misc:Depends}, python3, python3-pyfiglet, python3-termcolor, python3-colorama, speedtest-cli
+Description: A network speed test utility
+ This utility allows you to test your internet connection speed (download/upload),
+ ping and jitter. It also performs network security checks and displays server
+ details. Features include real-time progress feedback, a results summary, and
+ customizable commands for ease of use.
